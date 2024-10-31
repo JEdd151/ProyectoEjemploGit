@@ -16,14 +16,9 @@ python HolaMundo.py
 
 | Comando | Descripción |
 | --- | --- |
-| `mkdir ProyectoEjemploGit` | Crea un nuevo directorio llamado `ProyectoEjemploGit` |
-| `cd ProyectoEjemploGit` | Entra al directorio `ProyectoEjemploGit` |
 | `git init` | Inicializa un nuevo repositorio Git |
-| `echo 'print ("Hola Mundo") ' > HolaMundo.py` | Crea el archivo `HolaMundo.py` con el contenido "Hola Mundo" |
 | `git add HolaMundo.py` | Añade el archivo `HolaMundo.py` |
 | `git commit -m "Se agrego el programa de Hola Mundo en Python"` | Realiza el primer commit |
-| `touch debug.log` | Crea un archivo `debug.log` |
-| `echo "*.log" > .gitignore` | Crea el archivo `.gitignore` e incluye  `*.log` |
 | `git add .gitignore` | Añade el archivo `.gitignore` |
 | `git commit -m "Se agrego el archivo .gitignore"` | Realiza el segundo commit |
 | `git status` | Verifica el estado del repositorio |
